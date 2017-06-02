@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="landscape">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,23 +17,20 @@
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokedexLaunch" translatesAutoresizingMaskIntoConstraints="NO" id="704-5F-6Q2">
-                                <rect key="frame" x="20" y="104.5" width="627" height="166"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="166" id="393-Ep-RkG"/>
-                                </constraints>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokedexLaunch" translatesAutoresizingMaskIntoConstraints="NO" id="Kjf-8K-T8G">
+                                <rect key="frame" x="20" y="258.5" width="335" height="149"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="704-5F-6Q2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2un-YC-Hbf"/>
-                            <constraint firstItem="704-5F-6Q2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6Sw-Mm-AdF"/>
-                            <constraint firstItem="704-5F-6Q2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="plX-sm-asQ"/>
-                            <constraint firstAttribute="trailing" secondItem="704-5F-6Q2" secondAttribute="trailing" constant="20" id="yWM-t8-pMv"/>
+                            <constraint firstItem="Kjf-8K-T8G" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="Phs-47-rhL"/>
+                            <constraint firstItem="Kjf-8K-T8G" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="dne-Qf-2ou"/>
+                            <constraint firstItem="Kjf-8K-T8G" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="f5P-JW-7e3"/>
+                            <constraint firstAttribute="trailing" secondItem="Kjf-8K-T8G" secondAttribute="trailing" constant="20" id="iQM-df-Wgk"/>
                         </constraints>
                     </view>
                 </viewController>
