@@ -7,8 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EB639FA1D95DE95309F0C5D /* Pods_pokedex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49182C5161CDE2C98BABDE7E /* Pods_pokedex.framework */; };
 		BF6A72F71EDF27C500EDA759 /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF6A72F61EDF27C500EDA759 /* pokemon.ttf */; };
+		BF6A72F91EDF3DCE00EDA759 /* PokemonDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A72F81EDF3DCE00EDA759 /* PokemonDetailsVC.swift */; };
 		BF74E84C1EDEECD600DA523D /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF74E84B1EDEECD600DA523D /* music.mp3 */; };
+		BF7BA5871EE04F1200167A28 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BA5861EE04F1200167A28 /* Constants.swift */; };
+		BF7BA5A01EE0B4EC00167A28 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5891EE0B4EC00167A28 /* Contents.json */; };
+		BF7BA5A11EE0B4EC00167A28 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA58A1EE0B4EC00167A28 /* Icon-App-20x20@1x.png */; };
+		BF7BA5A21EE0B4EC00167A28 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA58B1EE0B4EC00167A28 /* Icon-App-20x20@2x.png */; };
+		BF7BA5A31EE0B4EC00167A28 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA58C1EE0B4EC00167A28 /* Icon-App-20x20@3x.png */; };
+		BF7BA5A41EE0B4EC00167A28 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA58D1EE0B4EC00167A28 /* Icon-App-29x29@1x.png */; };
+		BF7BA5A51EE0B4EC00167A28 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA58E1EE0B4EC00167A28 /* Icon-App-29x29@2x.png */; };
+		BF7BA5A61EE0B4EC00167A28 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA58F1EE0B4EC00167A28 /* Icon-App-29x29@3x.png */; };
+		BF7BA5A71EE0B4EC00167A28 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5901EE0B4EC00167A28 /* Icon-App-40x40@1x.png */; };
+		BF7BA5A81EE0B4EC00167A28 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5911EE0B4EC00167A28 /* Icon-App-40x40@2x.png */; };
+		BF7BA5A91EE0B4EC00167A28 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5921EE0B4EC00167A28 /* Icon-App-40x40@3x.png */; };
+		BF7BA5AA1EE0B4EC00167A28 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5931EE0B4EC00167A28 /* Icon-App-57x57@1x.png */; };
+		BF7BA5AB1EE0B4EC00167A28 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5941EE0B4EC00167A28 /* Icon-App-57x57@2x.png */; };
+		BF7BA5AC1EE0B4EC00167A28 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5951EE0B4EC00167A28 /* Icon-App-60x60@1x.png */; };
+		BF7BA5AD1EE0B4EC00167A28 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5961EE0B4EC00167A28 /* Icon-App-60x60@2x.png */; };
+		BF7BA5AE1EE0B4EC00167A28 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5971EE0B4EC00167A28 /* Icon-App-60x60@3x.png */; };
+		BF7BA5AF1EE0B4EC00167A28 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5981EE0B4EC00167A28 /* Icon-App-72x72@1x.png */; };
+		BF7BA5B01EE0B4EC00167A28 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA5991EE0B4EC00167A28 /* Icon-App-72x72@2x.png */; };
+		BF7BA5B11EE0B4EC00167A28 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA59A1EE0B4EC00167A28 /* Icon-App-76x76@1x.png */; };
+		BF7BA5B21EE0B4EC00167A28 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA59B1EE0B4EC00167A28 /* Icon-App-76x76@2x.png */; };
+		BF7BA5B31EE0B4EC00167A28 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA59C1EE0B4EC00167A28 /* Icon-App-76x76@3x.png */; };
+		BF7BA5B41EE0B4EC00167A28 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA59D1EE0B4EC00167A28 /* Icon-App-83.5x83.5@2x.png */; };
+		BF7BA5B51EE0B4EC00167A28 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA59E1EE0B4EC00167A28 /* Icon-Small-50x50@1x.png */; };
+		BF7BA5B61EE0B4EC00167A28 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7BA59F1EE0B4EC00167A28 /* Icon-Small-50x50@2x.png */; };
 		BFC0F75C1EDD7BC500293017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0F75B1EDD7BC500293017 /* AppDelegate.swift */; };
 		BFC0F75E1EDD7BC500293017 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0F75D1EDD7BC500293017 /* MainVC.swift */; };
 		BFC0F7611EDD7BC500293017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC0F75F1EDD7BC500293017 /* Main.storyboard */; };
@@ -21,8 +47,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49182C5161CDE2C98BABDE7E /* Pods_pokedex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokedex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F607CD6996F7A4A829E23D /* Pods-pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex/Pods-pokedex.debug.xcconfig"; sourceTree = "<group>"; };
+		BCC2EB0A570875EC4C5A4402 /* Pods-pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex/Pods-pokedex.release.xcconfig"; sourceTree = "<group>"; };
 		BF6A72F61EDF27C500EDA759 /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
+		BF6A72F81EDF3DCE00EDA759 /* PokemonDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailsVC.swift; sourceTree = "<group>"; };
 		BF74E84B1EDEECD600DA523D /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		BF7BA5861EE04F1200167A28 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BF7BA5891EE0B4EC00167A28 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BF7BA58A1EE0B4EC00167A28 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		BF7BA58B1EE0B4EC00167A28 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		BF7BA58C1EE0B4EC00167A28 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		BF7BA58D1EE0B4EC00167A28 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		BF7BA58E1EE0B4EC00167A28 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		BF7BA58F1EE0B4EC00167A28 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		BF7BA5901EE0B4EC00167A28 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		BF7BA5911EE0B4EC00167A28 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		BF7BA5921EE0B4EC00167A28 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		BF7BA5931EE0B4EC00167A28 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		BF7BA5941EE0B4EC00167A28 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		BF7BA5951EE0B4EC00167A28 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		BF7BA5961EE0B4EC00167A28 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		BF7BA5971EE0B4EC00167A28 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		BF7BA5981EE0B4EC00167A28 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		BF7BA5991EE0B4EC00167A28 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		BF7BA59A1EE0B4EC00167A28 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		BF7BA59B1EE0B4EC00167A28 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		BF7BA59C1EE0B4EC00167A28 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		BF7BA59D1EE0B4EC00167A28 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		BF7BA59E1EE0B4EC00167A28 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		BF7BA59F1EE0B4EC00167A28 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
 		BFC0F7581EDD7BC500293017 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC0F75B1EDD7BC500293017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFC0F75D1EDD7BC500293017 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -41,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB639FA1D95DE95309F0C5D /* Pods_pokedex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,11 +112,43 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		BF7BA5881EE0B4EC00167A28 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				BF7BA5891EE0B4EC00167A28 /* Contents.json */,
+				BF7BA58A1EE0B4EC00167A28 /* Icon-App-20x20@1x.png */,
+				BF7BA58B1EE0B4EC00167A28 /* Icon-App-20x20@2x.png */,
+				BF7BA58C1EE0B4EC00167A28 /* Icon-App-20x20@3x.png */,
+				BF7BA58D1EE0B4EC00167A28 /* Icon-App-29x29@1x.png */,
+				BF7BA58E1EE0B4EC00167A28 /* Icon-App-29x29@2x.png */,
+				BF7BA58F1EE0B4EC00167A28 /* Icon-App-29x29@3x.png */,
+				BF7BA5901EE0B4EC00167A28 /* Icon-App-40x40@1x.png */,
+				BF7BA5911EE0B4EC00167A28 /* Icon-App-40x40@2x.png */,
+				BF7BA5921EE0B4EC00167A28 /* Icon-App-40x40@3x.png */,
+				BF7BA5931EE0B4EC00167A28 /* Icon-App-57x57@1x.png */,
+				BF7BA5941EE0B4EC00167A28 /* Icon-App-57x57@2x.png */,
+				BF7BA5951EE0B4EC00167A28 /* Icon-App-60x60@1x.png */,
+				BF7BA5961EE0B4EC00167A28 /* Icon-App-60x60@2x.png */,
+				BF7BA5971EE0B4EC00167A28 /* Icon-App-60x60@3x.png */,
+				BF7BA5981EE0B4EC00167A28 /* Icon-App-72x72@1x.png */,
+				BF7BA5991EE0B4EC00167A28 /* Icon-App-72x72@2x.png */,
+				BF7BA59A1EE0B4EC00167A28 /* Icon-App-76x76@1x.png */,
+				BF7BA59B1EE0B4EC00167A28 /* Icon-App-76x76@2x.png */,
+				BF7BA59C1EE0B4EC00167A28 /* Icon-App-76x76@3x.png */,
+				BF7BA59D1EE0B4EC00167A28 /* Icon-App-83.5x83.5@2x.png */,
+				BF7BA59E1EE0B4EC00167A28 /* Icon-Small-50x50@1x.png */,
+				BF7BA59F1EE0B4EC00167A28 /* Icon-Small-50x50@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
 		BFC0F74F1EDD7BC500293017 = {
 			isa = PBXGroup;
 			children = (
 				BFC0F75A1EDD7BC500293017 /* pokedex */,
 				BFC0F7591EDD7BC500293017 /* Products */,
+				E06431A368C120E9506BB730 /* Pods */,
+				C98FC7CEC9F7084A3A075959 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +171,7 @@
 				BFC0F75B1EDD7BC500293017 /* AppDelegate.swift */,
 				BFC0F75F1EDD7BC500293017 /* Main.storyboard */,
 				BFC0F7621EDD7BC500293017 /* Assets.xcassets */,
+				BF7BA5881EE0B4EC00167A28 /* AppIcon.appiconset */,
 				BFC0F7641EDD7BC500293017 /* LaunchScreen.storyboard */,
 				BFC0F7671EDD7BC500293017 /* Info.plist */,
 			);
@@ -110,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				BFC0F75D1EDD7BC500293017 /* MainVC.swift */,
+				BF6A72F81EDF3DCE00EDA759 /* PokemonDetailsVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -118,8 +207,26 @@
 			isa = PBXGroup;
 			children = (
 				BFC0F7771EDDADB100293017 /* csv.swift */,
+				BF7BA5861EE04F1200167A28 /* Constants.swift */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		C98FC7CEC9F7084A3A075959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49182C5161CDE2C98BABDE7E /* Pods_pokedex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06431A368C120E9506BB730 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91F607CD6996F7A4A829E23D /* Pods-pokedex.debug.xcconfig */,
+				BCC2EB0A570875EC4C5A4402 /* Pods-pokedex.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFC0F76A1EDD7BC500293017 /* Build configuration list for PBXNativeTarget "pokedex" */;
 			buildPhases = (
+				D278F6849E63A49A3119A008 /* [CP] Check Pods Manifest.lock */,
 				BFC0F7541EDD7BC500293017 /* Sources */,
 				BFC0F7551EDD7BC500293017 /* Frameworks */,
 				BFC0F7561EDD7BC500293017 /* Resources */,
+				295B06326FA9FF1CE943EBAC /* [CP] Embed Pods Frameworks */,
+				6739DD8235499A1D1B67F33F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,16 +293,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7BA5A81EE0B4EC00167A28 /* Icon-App-40x40@2x.png in Resources */,
 				BF74E84C1EDEECD600DA523D /* music.mp3 in Resources */,
+				BF7BA5AB1EE0B4EC00167A28 /* Icon-App-57x57@2x.png in Resources */,
+				BF7BA5A11EE0B4EC00167A28 /* Icon-App-20x20@1x.png in Resources */,
 				BFC0F7661EDD7BC500293017 /* LaunchScreen.storyboard in Resources */,
+				BF7BA5A31EE0B4EC00167A28 /* Icon-App-20x20@3x.png in Resources */,
+				BF7BA5AD1EE0B4EC00167A28 /* Icon-App-60x60@2x.png in Resources */,
+				BF7BA5B01EE0B4EC00167A28 /* Icon-App-72x72@2x.png in Resources */,
 				BFC0F7631EDD7BC500293017 /* Assets.xcassets in Resources */,
+				BF7BA5B51EE0B4EC00167A28 /* Icon-Small-50x50@1x.png in Resources */,
 				BFC0F76E1EDD868300293017 /* pokemon.csv in Resources */,
+				BF7BA5B41EE0B4EC00167A28 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				BF7BA5AF1EE0B4EC00167A28 /* Icon-App-72x72@1x.png in Resources */,
+				BF7BA5AC1EE0B4EC00167A28 /* Icon-App-60x60@1x.png in Resources */,
+				BF7BA5B21EE0B4EC00167A28 /* Icon-App-76x76@2x.png in Resources */,
+				BF7BA5A91EE0B4EC00167A28 /* Icon-App-40x40@3x.png in Resources */,
+				BF7BA5A41EE0B4EC00167A28 /* Icon-App-29x29@1x.png in Resources */,
+				BF7BA5B31EE0B4EC00167A28 /* Icon-App-76x76@3x.png in Resources */,
+				BF7BA5A21EE0B4EC00167A28 /* Icon-App-20x20@2x.png in Resources */,
+				BF7BA5A51EE0B4EC00167A28 /* Icon-App-29x29@2x.png in Resources */,
+				BF7BA5A71EE0B4EC00167A28 /* Icon-App-40x40@1x.png in Resources */,
+				BF7BA5AA1EE0B4EC00167A28 /* Icon-App-57x57@1x.png in Resources */,
 				BF6A72F71EDF27C500EDA759 /* pokemon.ttf in Resources */,
+				BF7BA5B61EE0B4EC00167A28 /* Icon-Small-50x50@2x.png in Resources */,
 				BFC0F7611EDD7BC500293017 /* Main.storyboard in Resources */,
+				BF7BA5AE1EE0B4EC00167A28 /* Icon-App-60x60@3x.png in Resources */,
+				BF7BA5A01EE0B4EC00167A28 /* Contents.json in Resources */,
+				BF7BA5A61EE0B4EC00167A28 /* Icon-App-29x29@3x.png in Resources */,
+				BF7BA5B11EE0B4EC00167A28 /* Icon-App-76x76@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		295B06326FA9FF1CE943EBAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokedex/Pods-pokedex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6739DD8235499A1D1B67F33F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokedex/Pods-pokedex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D278F6849E63A49A3119A008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFC0F7541EDD7BC500293017 /* Sources */ = {
@@ -203,7 +384,9 @@
 				BFC0F75E1EDD7BC500293017 /* MainVC.swift in Sources */,
 				BFC0F75C1EDD7BC500293017 /* AppDelegate.swift in Sources */,
 				BFC0F7731EDD86CF00293017 /* Pokemon.swift in Sources */,
+				BF7BA5871EE04F1200167A28 /* Constants.swift in Sources */,
 				BFC0F7781EDDADB100293017 /* csv.swift in Sources */,
+				BF6A72F91EDF3DCE00EDA759 /* PokemonDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +436,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -303,6 +488,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -324,10 +510,12 @@
 		};
 		BFC0F76B1EDD7BC500293017 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F607CD6996F7A4A829E23D /* Pods-pokedex.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = SU634ZDD66;
 				INFOPLIST_FILE = pokedex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxfurman.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,10 +525,12 @@
 		};
 		BFC0F76C1EDD7BC500293017 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC2EB0A570875EC4C5A4402 /* Pods-pokedex.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = SU634ZDD66;
 				INFOPLIST_FILE = pokedex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxfurman.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
