@@ -43,12 +43,6 @@ class MainVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         if(nextEvoId != 0){
             let poke: Pokemon!
             
-//            if inSearchMode{
-//                poke = filteredPokemons[nextEvoId-1]
-//            } else {
-//                poke = pokemons[nextEvoId-1]
-//            }
-            
             for pok in pokemons{
                 if pok.pokedexId == nextEvoId{
                     poke = pok

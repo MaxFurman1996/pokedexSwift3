@@ -24,7 +24,6 @@ class PokemonDetailsVC: UIViewController {
     @IBOutlet weak var nextEvoBtn: UIButton!
     
     var delegate: VCTwoDelegate!
-    
     var pokemon: Pokemon!
     
     override func viewDidLoad() {
