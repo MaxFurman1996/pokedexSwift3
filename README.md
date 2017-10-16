@@ -2,7 +2,7 @@
 Pokemon database. Work with pokemon api. Using CocoaPods, Alamofire
 
 
-## Table View with pomekons uploaded from pokeapi
+## Table View with pokemons uploaded from pokeapi
 
 ![pokedex1](https://user-images.githubusercontent.com/25123468/31609359-75fe9308-b27c-11e7-8fc7-cbea4250e0df.jpg)
 
